@@ -17,7 +17,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.any? do |word|
-    word.count > 4
+    word.length > 4
   end
 end
 
